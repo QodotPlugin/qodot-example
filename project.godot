@@ -304,7 +304,7 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://addons/qodot/src/resources/quake_palette_file.gd"
 }, {
-"base": "Reference",
+"base": "EditorImportPlugin",
 "class": "QuakePaletteImportPlugin",
 "language": "GDScript",
 "path": "res://addons/qodot/src/import_plugins/quake_palette_import_plugin.gd"
