@@ -1,0 +1,13 @@
+[remap]
+
+importer="qodot.map"
+type="Resource"
+path="res://.import/metal-arch.map-d9235a073bf8747a1072d3ab9be569bc.tres"
+
+[deps]
+
+source_file="res://maps/metal-arch.map"
+dest_files=[ "res://.import/metal-arch.map-d9235a073bf8747a1072d3ab9be569bc.tres" ]
+
+[params]
+
