@@ -12,7 +12,7 @@ In order to open the example map in TrenchBroom, it will need access to the Qodo
 
 ## Qodot Elsewhere
 
-[Qodot - Plugin repo on GitHub](https://github.com/Shfty/qodot-plugin)
+[Qodot - Main plugin repo on GitHub](https://github.com/Shfty/qodot-plugin)
 
 [Discord - Qodot](https://discord.gg/c72WBuG)
 
