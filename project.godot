@@ -9,6 +9,11 @@
 config_version=4
 
 _global_script_classes=[ {
+"base": "ImmediateGeometry",
+"class": "NormalVisualizer",
+"language": "GDScript",
+"path": "res://scripts/NormalVisualizer.gd"
+}, {
 "base": "QodotSpatial",
 "class": "QodotBrush",
 "language": "GDScript",
@@ -330,6 +335,7 @@ _global_script_classes=[ {
 "path": "res://addons/qodot/lib/texture_layered_mesh.gd"
 } ]
 _global_script_class_icons={
+"NormalVisualizer": "",
 "QodotBrush": "",
 "QodotBuildAreaConvexCollision": "",
 "QodotBuildAtlasedMesh": "",

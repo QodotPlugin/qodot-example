@@ -12,3 +12,4 @@ export/
 scenes/test_maps
 scenes/autosave/
 textures/QUAKE101.WAD*
+maps/autosave
