@@ -9,11 +9,6 @@
 config_version=4
 
 _global_script_classes=[ {
-"base": "ImmediateGeometry",
-"class": "NormalVisualizer",
-"language": "GDScript",
-"path": "res://scripts/NormalVisualizer.gd"
-}, {
 "base": "QodotSpatial",
 "class": "QodotBrush",
 "language": "GDScript",
@@ -219,6 +214,31 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://addons/qodot/src/nodes/qodot_entity.gd"
 }, {
+"base": "QodotFGDClass",
+"class": "QodotFGDBaseClass",
+"language": "GDScript",
+"path": "res://addons/qodot/src/resources/fgd/qodot_fgd_base_class.gd"
+}, {
+"base": "Resource",
+"class": "QodotFGDClass",
+"language": "GDScript",
+"path": "res://addons/qodot/src/resources/fgd/qodot_fgd_class.gd"
+}, {
+"base": "Resource",
+"class": "QodotFGDFile",
+"language": "GDScript",
+"path": "res://addons/qodot/src/resources/fgd/qodot_fgd_file.gd"
+}, {
+"base": "QodotFGDClass",
+"class": "QodotFGDPointClass",
+"language": "GDScript",
+"path": "res://addons/qodot/src/resources/fgd/qodot_fgd_solid_class.gd"
+}, {
+"base": "QodotFGDClass",
+"class": "QodotFGDSolidClass",
+"language": "GDScript",
+"path": "res://addons/qodot/src/resources/fgd/qodot_fgd_point_class.gd"
+}, {
 "base": "QodotSpatial",
 "class": "QodotMap",
 "language": "GDScript",
@@ -335,7 +355,6 @@ _global_script_classes=[ {
 "path": "res://addons/qodot/lib/texture_layered_mesh.gd"
 } ]
 _global_script_class_icons={
-"NormalVisualizer": "",
 "QodotBrush": "",
 "QodotBuildAreaConvexCollision": "",
 "QodotBuildAtlasedMesh": "",
@@ -377,6 +396,11 @@ _global_script_class_icons={
 "QodotBuildUnwrapUVs": "",
 "QodotDebugPipeline": "",
 "QodotEntity": "",
+"QodotFGDBaseClass": "",
+"QodotFGDClass": "",
+"QodotFGDFile": "",
+"QodotFGDPointClass": "",
+"QodotFGDSolidClass": "",
 "QodotMap": "",
 "QodotMeshPerMaterialPipeline": "",
 "QodotNode": "res://addons/qodot/icons/icon_qodot_node.svg",
