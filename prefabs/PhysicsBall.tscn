@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="SphereShape" id=1]
+radius = 0.4
+
+[node name="PhysicsBall" type="RigidBody"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.542, 15.076, -20.5481 )
+
+[node name="CSGSphere" type="CSGSphere" parent="."]
+radius = 0.4
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+shape = SubResource( 1 )

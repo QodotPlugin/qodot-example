@@ -1,6 +1,6 @@
 [gd_resource type="Resource" load_steps=2 format=2]
 
-[ext_resource path="res://addons/qodot/src/resources/fgd/qodot_fgd_solid_class.gd" type="Script" id=1]
+[ext_resource path="res://addons/qodot/src/resources/fgd/qodot_fgd_point_class.gd" type="Script" id=1]
 
 [resource]
 script = ExtResource( 1 )
@@ -14,6 +14,6 @@ class_properties = {
 class_property_descriptions = {
 "angle": "Rotation Angle"
 }
-classname = "example"
-description = "Example Entity"
-scene_file = ""
+classname = "physics_ball"
+description = "Physics Ball"
+scene_file = "res://prefabs/PhysicsBall.tscn"

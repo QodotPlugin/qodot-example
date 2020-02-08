@@ -232,12 +232,17 @@ _global_script_classes=[ {
 "base": "QodotFGDClass",
 "class": "QodotFGDPointClass",
 "language": "GDScript",
-"path": "res://addons/qodot/src/resources/fgd/qodot_fgd_solid_class.gd"
+"path": "res://addons/qodot/src/resources/fgd/qodot_fgd_point_class.gd"
 }, {
 "base": "QodotFGDClass",
 "class": "QodotFGDSolidClass",
 "language": "GDScript",
-"path": "res://addons/qodot/src/resources/fgd/qodot_fgd_point_class.gd"
+"path": "res://addons/qodot/src/resources/fgd/qodot_fgd_solid_class.gd"
+}, {
+"base": "QodotEntity",
+"class": "QodotLight",
+"language": "GDScript",
+"path": "res://addons/qodot/src/nodes/qodot_light.gd"
 }, {
 "base": "QodotSpatial",
 "class": "QodotMap",
@@ -401,6 +406,7 @@ _global_script_class_icons={
 "QodotFGDFile": "",
 "QodotFGDPointClass": "",
 "QodotFGDSolidClass": "",
+"QodotLight": "",
 "QodotMap": "",
 "QodotMeshPerMaterialPipeline": "",
 "QodotNode": "res://addons/qodot/icons/icon_qodot_node.svg",
