@@ -1,0 +1,24 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://addons/qodot/src/resources/fgd/qodot_fgd_solid_class.gd" type="Script" id=1]
+[ext_resource path="res://fgd/solid_classes/rotate.gd" type="Script" id=2]
+
+[resource]
+script = ExtResource( 1 )
+meta_properties = {
+
+}
+class_properties = {
+"axis": Vector3( 0, 1, 0 ),
+"speed": 360.0
+}
+class_property_descriptions = {
+"axis": "Rotation Axis",
+"speed": "Rotation Speed"
+}
+classname = "rotate"
+description = "Rotating Brush"
+script_class = ExtResource( 2 )
+is_worldspawn = false
+has_visuals = true
+collision_type = 3

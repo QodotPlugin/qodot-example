@@ -45,6 +45,11 @@ _global_script_classes=[ {
 "path": "res://addons/qodot/src/build/step/build_debug/build_brush_convex_collision.gd"
 }, {
 "base": "QodotBuildStep",
+"class": "QodotBuildBrushEntityNodes",
+"language": "GDScript",
+"path": "res://addons/qodot/src/build/step/build_nodes/build_brush_entity_nodes.gd"
+}, {
+"base": "QodotBuildStep",
 "class": "QodotBuildBrushFaceAxes",
 "language": "GDScript",
 "path": "res://addons/qodot/src/build/step/build_debug/build_brush_face_axes.gd"
@@ -274,6 +279,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://addons/qodot/src/util/qodot_profiler.gd"
 }, {
+"base": "QodotEntity",
+"class": "QodotRotateEntity",
+"language": "GDScript",
+"path": "res://fgd/solid_classes/rotate.gd"
+}, {
 "base": "QodotBuildPipeline",
 "class": "QodotSingleMeshAtlasedPipeline",
 "language": "GDScript",
@@ -367,6 +377,7 @@ _global_script_class_icons={
 "QodotBuildAtlasedMeshPerEntity": "",
 "QodotBuildBrushAreas": "",
 "QodotBuildBrushConvexCollision": "",
+"QodotBuildBrushEntityNodes": "",
 "QodotBuildBrushFaceAxes": "",
 "QodotBuildBrushFaceMeshes": "",
 "QodotBuildBrushFaceVertices": "",
@@ -413,6 +424,7 @@ _global_script_class_icons={
 "QodotPlugin": "",
 "QodotPrinter": "",
 "QodotProfiler": "",
+"QodotRotateEntity": "",
 "QodotSingleMeshAtlasedPipeline": "",
 "QodotSpatial": "res://addons/qodot/icons/icon_qodot_spatial.svg",
 "QodotTextureLayeredMesh": "",
