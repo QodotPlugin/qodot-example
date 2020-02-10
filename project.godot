@@ -27,7 +27,7 @@ _global_script_classes=[ {
 "base": "QodotBuildCollision",
 "class": "QodotBuildBrushEntityCollisionShapes",
 "language": "GDScript",
-"path": "res://addons/qodot/src/build/step/build_collision/build_brush_entity_collision_areas.gd"
+"path": "res://addons/qodot/src/build/step/build_collision/build_brush_entity_collision_shapes.gd"
 }, {
 "base": "QodotBuildMeshes",
 "class": "QodotBuildBrushEntityMaterialMeshes",
