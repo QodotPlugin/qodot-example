@@ -5,6 +5,7 @@
 
 [resource]
 script = ExtResource( 1 )
+class_options = "================================================================"
 meta_properties = {
 
 }
@@ -18,7 +19,13 @@ class_property_descriptions = {
 }
 classname = "rotate"
 description = "Rotating Brush"
+spawn = "================================================================"
+spawn_type = 2
+visual_build = "================================================================"
+visual_build_type = 1
+collision_build = "================================================================"
+physics_body_type = 3
+collision_shape_type = 1
+merge_brush_collision = false
+scripting = "================================================================"
 script_class = ExtResource( 2 )
-is_worldspawn = false
-has_visuals = true
-collision_type = 3

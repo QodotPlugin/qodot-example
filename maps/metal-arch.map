@@ -251,7 +251,7 @@
 }
 // entity 10
 {
-"classname" "group"
+"classname" "detail"
 // brush 0
 {
 ( -304 32 80 ) ( -304 -0 16 ) ( -304 32 16 ) base/checkerboard [ 0 -1 0 -0 ] [ 0 0 -1 -0 ] -0 0.03125 0.03125
