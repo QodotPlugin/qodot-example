@@ -147,27 +147,27 @@ _global_script_classes=[ {
 "base": "QodotFGDClass",
 "class": "QodotFGDBaseClass",
 "language": "GDScript",
-"path": "res://addons/qodot/src/resources/fgd/qodot_fgd_base_class.gd"
+"path": "res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_base_class.gd"
 }, {
 "base": "Resource",
 "class": "QodotFGDClass",
 "language": "GDScript",
-"path": "res://addons/qodot/src/resources/fgd/qodot_fgd_class.gd"
+"path": "res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_class.gd"
 }, {
 "base": "Resource",
 "class": "QodotFGDFile",
 "language": "GDScript",
-"path": "res://addons/qodot/src/resources/fgd/qodot_fgd_file.gd"
+"path": "res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_file.gd"
 }, {
 "base": "QodotFGDClass",
 "class": "QodotFGDPointClass",
 "language": "GDScript",
-"path": "res://addons/qodot/src/resources/fgd/qodot_fgd_point_class.gd"
+"path": "res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_point_class.gd"
 }, {
 "base": "QodotFGDClass",
 "class": "QodotFGDSolidClass",
 "language": "GDScript",
-"path": "res://addons/qodot/src/resources/fgd/qodot_fgd_solid_class.gd"
+"path": "res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_solid_class.gd"
 }, {
 "base": "QodotEntity",
 "class": "QodotLight",
@@ -199,10 +199,10 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://addons/qodot/src/util/qodot_profiler.gd"
 }, {
-"base": "QodotEntity",
+"base": "Reference",
 "class": "QodotRotateEntity",
 "language": "GDScript",
-"path": "res://fgd/solid_classes/rotate.gd"
+"path": "res://game-definitions/fgd/solid_classes/rotate.gd"
 }, {
 "base": "Spatial",
 "class": "QodotSpatial",
@@ -283,6 +283,26 @@ _global_script_classes=[ {
 "class": "TextureLayeredMesh",
 "language": "GDScript",
 "path": "res://addons/qodot/lib/texture_layered_mesh.gd"
+}, {
+"base": "Resource",
+"class": "TrenchBroomFaceAttrib",
+"language": "GDScript",
+"path": "res://addons/qodot/src/resources/game-definitions/trenchbroom/trenchbroom_face_attrib.gd"
+}, {
+"base": "Resource",
+"class": "TrenchBroomGameConfigFile",
+"language": "GDScript",
+"path": "res://addons/qodot/src/resources/game-definitions/trenchbroom/trenchbroom_game_config_file.gd"
+}, {
+"base": "Resource",
+"class": "TrenchBroomGameConfigFolder",
+"language": "GDScript",
+"path": "res://addons/qodot/src/resources/game-definitions/trenchbroom/trenchbroom_game_config_folder.gd"
+}, {
+"base": "Resource",
+"class": "TrenchBroomTag",
+"language": "GDScript",
+"path": "res://addons/qodot/src/resources/game-definitions/trenchbroom/trenchbroom_tag.gd"
 } ]
 _global_script_class_icons={
 "QodotBrush": "",
@@ -339,7 +359,11 @@ _global_script_class_icons={
 "QuakePlaneAxes": "res://addons/qodot/icons/icon_qodot_spatial.svg",
 "QuakeWadFile": "",
 "QuakeWadImportPlugin": "",
-"TextureLayeredMesh": ""
+"TextureLayeredMesh": "",
+"TrenchBroomFaceAttrib": "",
+"TrenchBroomGameConfigFile": "",
+"TrenchBroomGameConfigFolder": "",
+"TrenchBroomTag": ""
 }
 
 [application]
