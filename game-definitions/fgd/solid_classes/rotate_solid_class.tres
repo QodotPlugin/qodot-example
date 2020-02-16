@@ -3,7 +3,6 @@
 [ext_resource path="res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_solid_class.gd" type="Script" id=1]
 [ext_resource path="res://game-definitions/fgd/solid_classes/rotate.gd" type="Script" id=2]
 
-
 [resource]
 script = ExtResource( 1 )
 class_options = "================================================================"
@@ -27,6 +26,5 @@ visual_build_type = 1
 collision_build = "================================================================"
 physics_body_type = 3
 collision_shape_type = 1
-merge_brush_collision = false
 scripting = "================================================================"
 script_class = ExtResource( 2 )

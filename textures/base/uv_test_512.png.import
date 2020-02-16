@@ -17,11 +17,11 @@ dest_files=[ "res://.import/uv_test_512.png-a7d989485e055959d5dd3187b6a9d1af.s3t
 [params]
 
 compress/mode=2
-compress/lossy_quality=0.7
+compress/lossy_quality=1.0
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
-flags/repeat=true
+flags/repeat=1
 flags/filter=false
 flags/mipmaps=true
 flags/anisotropic=true

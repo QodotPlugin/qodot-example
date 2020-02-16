@@ -17,11 +17,11 @@ dest_files=[ "res://.import/military-panel.png-71c832f4f98aeaaefbf6596ffd93576e.
 [params]
 
 compress/mode=2
-compress/lossy_quality=0.7
+compress/lossy_quality=1.0
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
-flags/repeat=true
+flags/repeat=1
 flags/filter=false
 flags/mipmaps=true
 flags/anisotropic=true
