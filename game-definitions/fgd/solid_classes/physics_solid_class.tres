@@ -5,17 +5,17 @@
 [resource]
 script = ExtResource( 1 )
 class_options = "----------------------------------------------------------------"
-meta_properties = {
-
-}
+classname = "physics"
+description = "Physics Brush"
 class_properties = {
 
 }
 class_property_descriptions = {
 
 }
-classname = "physics"
-description = "Physics Brush"
+meta_properties = {
+
+}
 spawn = "----------------------------------------------------------------"
 spawn_type = 2
 visual_build = "----------------------------------------------------------------"
