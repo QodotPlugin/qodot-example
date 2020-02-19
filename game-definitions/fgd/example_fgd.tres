@@ -1,4 +1,4 @@
-[gd_resource type="Resource" load_steps=12 format=2]
+[gd_resource type="Resource" load_steps=14 format=2]
 
 [ext_resource path="res://addons/qodot/game-definitions/fgd/solid_classes/worldspawn_solid_class.tres" type="Resource" id=1]
 [ext_resource path="res://addons/qodot/game-definitions/fgd/point_classes/light_point_class.tres" type="Resource" id=2]
@@ -11,10 +11,12 @@
 [ext_resource path="res://game-definitions/fgd/solid_classes/rotate_solid_class.tres" type="Resource" id=9]
 [ext_resource path="res://game-definitions/fgd/solid_classes/physics_solid_class.tres" type="Resource" id=10]
 [ext_resource path="res://addons/qodot/game-definitions/fgd/solid_classes/illusionary_solid_class.tres" type="Resource" id=11]
+[ext_resource path="res://game-definitions/fgd/solid_classes/wall_solid_class.tres" type="Resource" id=12]
+[ext_resource path="res://game-definitions/fgd/solid_classes/button_solid_class.tres" type="Resource" id=13]
 
 [resource]
 script = ExtResource( 7 )
 export_file = false
 target_folder = "P:/Personal/Quake/TrenchBroom/build/app/MinSizeRel/games"
 fgd_name = "Example"
-entity_definitions = [ ExtResource( 1 ), ExtResource( 5 ), ExtResource( 8 ), ExtResource( 11 ), ExtResource( 4 ), ExtResource( 3 ), ExtResource( 2 ), ExtResource( 10 ), ExtResource( 9 ), ExtResource( 6 ) ]
+entity_definitions = [ ExtResource( 1 ), ExtResource( 5 ), ExtResource( 8 ), ExtResource( 11 ), ExtResource( 4 ), ExtResource( 3 ), ExtResource( 2 ), ExtResource( 10 ), ExtResource( 9 ), ExtResource( 6 ), ExtResource( 12 ), ExtResource( 13 ) ]
