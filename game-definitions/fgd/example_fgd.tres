@@ -15,6 +15,6 @@
 [resource]
 script = ExtResource( 7 )
 export_file = false
-target_folder = "C:/OtherPrograms/TrenchBroom/games/Qodot"
+target_folder = "P:/Personal/Quake/TrenchBroom/build/app/MinSizeRel/games"
 fgd_name = "Example"
 entity_definitions = [ ExtResource( 1 ), ExtResource( 5 ), ExtResource( 8 ), ExtResource( 11 ), ExtResource( 4 ), ExtResource( 3 ), ExtResource( 2 ), ExtResource( 10 ), ExtResource( 9 ), ExtResource( 6 ) ]
