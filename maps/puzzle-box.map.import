@@ -1,0 +1,13 @@
+[remap]
+
+importer="qodot.map"
+type="Resource"
+path="res://.import/puzzle-box.map-d3dd1fd15ece99845d9dc44485b56852.tres"
+
+[deps]
+
+source_file="res://maps/puzzle-box.map"
+dest_files=[ "res://.import/puzzle-box.map-d3dd1fd15ece99845d9dc44485b56852.tres" ]
+
+[params]
+

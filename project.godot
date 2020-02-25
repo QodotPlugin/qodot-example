@@ -59,7 +59,7 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://addons/qodot/src/qodot_plugin.gd"
 }, {
-"base": "QodotEntity",
+"base": "KinematicBody",
 "class": "QodotRotateEntity",
 "language": "GDScript",
 "path": "res://game-definitions/fgd/solid_classes/rotate.gd"

@@ -1,18 +1,25 @@
 class_name QodotRotateEntity
-extends QodotEntity
+extends KinematicBody
 
-export(Vector3) var rotate_axis := Vector3.UP
-export(float) var rotate_speed := 360.0
+export(Dictionary) var properties setget set_properties
+
+var rotate_axis := Vector3.UP
+var rotate_speed := 360.0
+
+func set_properties(new_properties : Dictionary) -> void:
+	if(properties != new_properties):
+		properties = new_properties
+		update_properties()
 
 func update_properties():
 	if 'axis' in properties:
-		var axis_comps = properties['axis'].split(" ")
-		rotate_axis.x = axis_comps[0].to_float()
-		rotate_axis.y = axis_comps[1].to_float()
-		rotate_axis.z = axis_comps[2].to_float()
+		rotate_axis = properties['axis']
 
 	if 'speed' in properties:
-		rotate_speed = properties['speed'].to_float()
+		rotate_speed = properties['speed']
+
+func _ready() -> void:
+	update_properties()
 
 func _process(delta: float) -> void:
 	rotate(rotate_axis, deg2rad(rotate_speed * delta))
