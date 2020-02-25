@@ -27,17 +27,17 @@
 }
 // brush 2
 {
-( -64 192 16 ) ( -64 240 16 ) ( -16 240 48 ) __TB_empty [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
-( -16 192 48 ) ( -16 192 16 ) ( -64 192 16 ) __TB_empty [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
-( -16 240 16 ) ( -64 240 16 ) ( -64 192 16 ) __TB_empty [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
-( -16 240 48 ) ( -64 240 16 ) ( -16 240 16 ) __TB_empty [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
-( -16 192 48 ) ( -16 240 48 ) ( -16 240 16 ) __TB_empty [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -64 192 16 ) ( -64 240 16 ) ( -16 240 48 ) shaders/tangent-test [ 0.83205 -0 0.5547 0 ] [ -0 -1 0 0 ] 0 1 1
+( -16 192 48 ) ( -16 192 16 ) ( -64 192 16 ) shaders/tangent-test [ 1 0 -0 0 ] [ -0 0 -1 0 ] 0 1 1
+( -16 240 16 ) ( -64 240 16 ) ( -64 192 16 ) shaders/tangent-test [ -1 0 0 0 ] [ -0 -1 0 0 ] 0 1 1
+( -16 240 48 ) ( -64 240 16 ) ( -16 240 16 ) shaders/tangent-test [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -16 192 48 ) ( -16 240 48 ) ( -16 240 16 ) shaders/tangent-test [ 0 1 -0 0 ] [ 0 -0 -1 0 ] 0 1 1
 }
 }
 // entity 1
 {
 "classname" "trigger"
-"target" "signal_arch_trigger"
+"target" "interactive_physics_ball"
 // brush 0
 {
 ( -216 320 152 ) ( -216 112 152 ) ( -216 112 16 ) __TB_empty [ 0 -0.961538 0 -4.30769 ] [ 0 0 -1 -0 ] -0 1 1
@@ -646,7 +646,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Large Platform"
-"_tb_id" "79"
+"_tb_id" "13"
 // brush 0
 {
 ( -184 160 216 ) ( -184 160 215 ) ( -184 161 216 ) base/checkerboard [ -2.22045e-16 0 -1 0 ] [ 0 -1 0 0 ] 0 1 1
@@ -671,8 +671,8 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Medium Platform"
-"_tb_id" "80"
-"_tb_group" "79"
+"_tb_id" "14"
+"_tb_group" "13"
 // brush 0
 {
 ( -160 208 216 ) ( -160 209 216 ) ( -160 208 217 ) base/checkerboard [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
@@ -696,7 +696,7 @@
 {
 "classname" "rotate"
 "speed" "90"
-"_tb_group" "80"
+"_tb_group" "14"
 // brush 0
 {
 ( -192 192 208 ) ( -192 193 208 ) ( -192 192 209 ) base/checkerboard [ 0 -1 0 0 ] [ -0 -0 -1 0 ] 0 0.0625 0.0625
@@ -712,8 +712,8 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Small Platform"
-"_tb_id" "81"
-"_tb_group" "80"
+"_tb_id" "15"
+"_tb_group" "14"
 // brush 0
 {
 ( -184 232 256 ) ( -184 233 256 ) ( -184 232 257 ) base/checkerboard [ -2.22045e-16 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
@@ -728,7 +728,7 @@
 {
 "classname" "rotate"
 "speed" "90"
-"_tb_group" "81"
+"_tb_group" "15"
 // brush 0
 {
 ( -192 208 224 ) ( -192 209 224 ) ( -192 208 225 ) base/checkerboard [ 0 -1 0 0 ] [ -0 -0 -1 0 ] 0 0.0625 0.0625
@@ -743,7 +743,7 @@
 {
 "classname" "rotate"
 "speed" "90"
-"_tb_group" "79"
+"_tb_group" "13"
 // brush 0
 {
 ( -208 192 192 ) ( -208 193 192 ) ( -208 192 193 ) base/checkerboard [ 0 -1 0 0 ] [ -0 -0 -1 0 ] 0 0.0625 0.0625
@@ -800,20 +800,4 @@
 "classname" "light"
 "origin" "-40 216 72"
 "_color" "0.745098 0.254902 0.780392"
-}
-// entity 26
-{
-"classname" "signal"
-"origin" "-120 168 24"
-"targetname" "signal_arch_trigger"
-"target" "slot_arch_trigger"
-"signal_name" "trigger"
-}
-// entity 27
-{
-"classname" "slot"
-"origin" "-248 56 168"
-"targetname" "slot_arch_trigger"
-"target" "interactive_physics_ball"
-"slot_name" "bounce"
 }
