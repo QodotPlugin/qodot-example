@@ -1,4 +1,4 @@
-[gd_resource type="Resource" load_steps=15 format=2]
+[gd_resource type="Resource" load_steps=17 format=2]
 
 [ext_resource path="res://addons/qodot/game-definitions/fgd/solid_classes/detail_solid_class.tres" type="Resource" id=1]
 [ext_resource path="res://addons/qodot/game-definitions/fgd/solid_classes/worldspawn_solid_class.tres" type="Resource" id=2]
@@ -14,10 +14,13 @@
 [ext_resource path="res://game-definitions/fgd/solid_classes/physics_solid_class.tres" type="Resource" id=12]
 [ext_resource path="res://game-definitions/fgd/solid_classes/wall_solid_class.tres" type="Resource" id=13]
 [ext_resource path="res://addons/qodot/game-definitions/fgd/solid_classes/func_group_solid_class.tres" type="Resource" id=14]
+[ext_resource path="res://addons/qodot/game-definitions/fgd/point_classes/signal_point_class.tres" type="Resource" id=15]
+[ext_resource path="res://addons/qodot/game-definitions/fgd/point_classes/slot_point_class.tres" type="Resource" id=16]
+
 
 [resource]
 script = ExtResource( 7 )
 export_file = false
 target_folder = ""
 fgd_name = "Example"
-entity_definitions = [ ExtResource( 2 ), ExtResource( 14 ), ExtResource( 5 ), ExtResource( 1 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 8 ), ExtResource( 6 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 9 ), ExtResource( 13 ) ]
+entity_definitions = [ ExtResource( 2 ), ExtResource( 14 ), ExtResource( 5 ), ExtResource( 1 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 8 ), ExtResource( 6 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 9 ), ExtResource( 13 ), ExtResource( 15 ), ExtResource( 16 ) ]
