@@ -715,7 +715,7 @@ shape = SubResource( 54 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 13.5, 12.5, -11 )
 script = ExtResource( 12 )
 properties = {
-"_tb_group": "31",
+"_tb_group": "7",
 "classname": "rotate",
 "speed": 90.0
 }
@@ -724,7 +724,7 @@ properties = {
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0 )
 script = ExtResource( 12 )
 properties = {
-"_tb_group": "32",
+"_tb_group": "8",
 "classname": "rotate",
 "speed": 90.0
 }
@@ -733,7 +733,7 @@ properties = {
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0 )
 script = ExtResource( 12 )
 properties = {
-"_tb_group": "33",
+"_tb_group": "9",
 "classname": "rotate",
 "speed": 90.0
 }
@@ -810,11 +810,13 @@ shadow_enabled = true
 omni_range = 16.0
 
 [node name="entity_26_physics_ball" parent="QodotMap" instance=ExtResource( 6 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 12, 16 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 12, 16 )
+linear_velocity = Vector3( 2, 0, 0 )
 script = ExtResource( 15 )
 properties = {
 "classname": "physics_ball",
-"origin": "256 -64 192"
+"origin": "256 -128 192",
+"velocity": Vector3( 2, 0, 0 )
 }
 
 [node name="UI" type="Control" parent="."]
