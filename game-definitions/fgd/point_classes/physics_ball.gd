@@ -9,7 +9,6 @@ func set_properties(new_properties : Dictionary) -> void:
 		update_properties()
 
 func update_properties():
-	print(properties)
 	if 'velocity' in properties:
 		linear_velocity = properties['velocity']
 
