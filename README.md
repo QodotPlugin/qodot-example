@@ -8,7 +8,7 @@ The repo contains an example project with a simple .map scene imported to a .tsc
 
 In order to view the example content in Godot, you'll need to clone or download the repo, then add the `addons` folder from the [main plugin repo](https://github.com/Shfty/qodot-plugin) to the project root.
 
-In order to open the example map in TrenchBroom, it will need access to the Qodot game configuration as specified in the [TrenchBroom](https://github.com/ShiftyAxel/Qodot/wiki/TrenchBroom#qodot-integration) wiki page.
+In order to open the example map in TrenchBroom, it will need access to the Qodot game configuration as specified in the [TrenchBroom](https://github.com/Shfty/qodot-plugin/wiki/7.-TrenchBroom#setting-up-trenchbroom-for-godot-project-integration) wiki page.
 
 ## Qodot Elsewhere
 
